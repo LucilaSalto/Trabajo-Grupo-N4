@@ -9,11 +9,11 @@ https://github.com/luvvas21/Trabajo-Practico-6to-2da-4to-grupo
 
 //declaracion de la funcion linea
 void linea (char simbolo) {
-	for( int i= 0; i < 20; i++)
+	for( int i= 0; i < 20; i++) //el bucle for imprime el simbola 20 veces
 	{
 		printf( "%c", simbolo);
 	}
-	printf("\n");
+	printf("\n"); 
  //nueva linea despues de imprimir los 20 caracteres
 }
 
